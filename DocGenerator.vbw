@@ -1,0 +1,11 @@
+frmAddIn = 31, 60, 533, 510, C, 22, 22, 546, 441, C
+Connect = 88, 88, 612, 507, C, 66, 20, 758, 717, C
+GlobalVariables = 44, 44, 568, 463, Z
+cProject = 70, 57, 594, 476, C
+GlobalFunctions = 88, 88, 658, 535, 
+OrderedColl = 22, 22, 538, 469, C
+cToc = 132, 132, 606, 480, C
+cModule = 154, 154, 560, 502, C
+DOSOutputs = 176, 176, 653, 626, C
+cMember = 198, 198, 677, 617, C
+cSubMember = 66, 66, 545, 485, C

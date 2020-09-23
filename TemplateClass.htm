@@ -1,0 +1,46 @@
+<HTML>
+<HEAD>
+<style>
+	.PopupMenu {
+		background-color:#c0c0c0;
+		border-width: thin;
+		border-style:outset; 
+		border-color:#c0c0c0; 
+		width:100;
+		position:'absolute';
+		cursor:'default';
+		visibility:'hidden';
+		}
+	.Menu {
+		cursor:'default';
+		font-size:10pt; 
+		color:blue;
+		}
+	.ItemSelected {color:black; background-color:#b0b0b0;cursor:'default'}
+	.ItemUnSelected {color:white; background-color:#c0c0c0;cursor:'default'}
+	
+</style>
+<SCRIPT LANGUAGE=javascript>
+<!--
+	function Popup(obj){
+		obj.style.top = window.event.clientY - 10;
+		obj.style.left = window.event.clientX - 10;
+		obj.style.visibility = 'visible';
+	}
+//-->
+</SCRIPT>
+<TITLE>###Name### Object</TITLE>
+</HEAD>
+<BODY>
+<p><h1>###Name### Object</h1>
+<P>
+
+###HTML_Methods###
+
+<p>###Description###</p>
+<p> Author ###Author###</p>
+<p> Date Creation ###Date###</p>
+<P>Date Last Mod ###DateLastMod###</P>
+<P>###Remarks###</P>
+</BODY>
+</HTML>
